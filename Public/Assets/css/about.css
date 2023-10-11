@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+    flex: 1;
+}
+
+.header {
+    color: #0078d4;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.member {
+    margin: 20px;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.member p {
+    margin: 10px;
+}

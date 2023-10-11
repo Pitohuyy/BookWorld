@@ -1,0 +1,252 @@
+/* style.css */
+
+/* Style de base pour la liste non ordonnée (ul) du menu */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #333; /* Couleur de fond du menu */
+    padding-top: 30px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: start;
+  }
+  
+  /* Style des éléments de la liste (li) du menu */
+  li {
+    display: inline; /* Afficher les éléments en ligne */
+    margin-right: 40px; /* Marge à droite entre les éléments */
+    
+  }
+  
+  /* Style des liens (a) du menu */
+  li a {
+    text-decoration: none; /* Supprimer la décoration du lien */
+    color: #fff; /* Couleur du texte du lien */
+    font-weight: bold; /* Gras */
+  }
+  
+  /* Style des liens (a) au survol de la souris */
+  li a:hover {
+    background-color: #555; /* Couleur de fond au survol */
+    border-radius: 5px; /* Coins arrondis */
+  }
+  
+  .searchProduct{
+    display: inline;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-left: 200px;
+  }
+  
+  .searchProduct input{
+    height: 30px;
+    width: 500px;
+  }
+  .imgHome1{
+    height: 500px; /* Hauteur définie pour l'image de fond */
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .bgHeartBook{
+    margin-top: 100px;
+    height: 700px; /* Hauteur définie pour l'image de fond */
+    width: 100%;
+    z-index: 0;
+    filter: blur(5px);
+    opacity: 70%;
+  }
+  
+  .imgHome1{
+    height: 500px; /* Hauteur définie pour l'image de fond */
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .footerPage{
+    height: 400px; /* Hauteur définie pour l'image de fond */
+    width: 100%;
+    z-index: 1;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  html{
+    background-color: white;
+  }
+  
+  .cart{
+    margin-left: 650px;
+  }
+  
+  .titleDegrade0{
+    position: absolute;
+    z-index: 2;
+  top: 200px;
+  left: 100px;
+  font-size: 48px;
+  }
+  
+  .titleDegrade1{
+    position: absolute;
+    z-index: 2;
+  top: 250px;
+  left: 200px;
+  font-size: 48px;
+  }
+  
+  .titleDegrade2{
+    position: absolute;
+    z-index: 2;
+  top: 300px;
+  left: 300px;
+  font-size: 48px;
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+  }
+  
+  .buttonDegrade{
+    position: absolute;
+    z-index: 2;
+    top: 400px;
+    left: 400px;
+    font-size: 32px;
+    font-family:'Times New Roman', Times, serif;
+    cursor:pointer;
+    padding: 10px;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease; /* Ajouter une transition pour une animation en douceur */    
+  }
+  
+  .buttonDegrade:hover{
+    background-color: rgba(255, 255, 255, 0.5);/* Nouvelle couleur de fond au survol */
+  }
+  
+  .bookOffer1{
+    z-index: 5;
+    position: absolute;
+    width:200px;
+    height:300px;
+    top: 17%;
+    left: 47%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ombre */
+  
+  }
+  
+  .bookOffer2{
+    z-index: 4;
+    position: absolute;
+    width:200px;
+    height:300px;
+    top: 17%;
+    left: 55%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Ombre */
+  
+  }
+  
+  .bookOffer3{
+    z-index: 2;
+    position: absolute;
+    width:200px;
+    height:300px;
+    top: 17%;
+    left: 63%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Ombre */
+  
+  }
+  
+  .carousel-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  #carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .book-card {
+    max-width: 200px;
+    max-height: 300px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  #prevBtn, #nextBtn {
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .titleBookNews{
+    font-size: 42px;
+    padding: 100px 0px 20px 0px;
+    text-decoration:underline;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+  
+  .titleBestSeller{
+    font-size: 42px;
+    padding: 100px 0px 20px 0px;
+    text-decoration:underline;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+  
+  .book-card {
+    width: 200px; /* Largeur d'un élément de livre */
+    height: 300px; /* Hauteur d'un élément de livre */
+    margin: 0 10px; /* Espacement entre les éléments de livre */
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    background-color: #b0b0b0;
+    display: inline-block; /* Alignement horizontal */
+    vertical-align: top; /* Alignement vertical en haut */
+  }
+  
+  
+  
+  .footer-content{
+    position: absolute;
+    padding-left: 45%;
+    padding-top: 12%;
+    z-index: 2;
+    color: #ffffff;
+  }
+  
+  .banderole{
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    background-color: #333;
+  }
+  
+  .imgPreview{
+    max-width: 200px;
+    max-height: 300px;
+  }
+  
+  

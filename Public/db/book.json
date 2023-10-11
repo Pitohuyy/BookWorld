@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "The Odyssey",
+    "imageSrc": "Assets/img/book1.png",
+    "description": "Description:Robert Fagles...",
+    "price": 9,
+    "stars": "★★★★☆",
+    "productDetails": {
+      "age": "18 years and up+",
+      "binding": "541 pages",
+      "language": "English",
+      "publisher": "Penguin Classics; Reprint edition (November 29, 1999)"
+    },
+    "comments": [
+      {"user": "BookLover88", "rating": "★★★★★", "text": "Great book, highly recommended!"},
+      {"user": "ReadingRover", "rating": "★★★☆☆", "text": "Not bad, but the ending is a bit disappointing."}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "imageSrc": "Assets/img/book2.png",
+    "description": "Description:The third book in the Harry Potter series...",
+    "price": 28,
+    "stars": "★★★★★",
+    "productDetails": {
+      "age": "15+ years+",
+      "binding": "480 pages",
+      "language": "English",
+      "publisher": "Scholastic Inc.; Illustrated edition (October 3, 2023)"
+    },
+    "comments": [
+      {"user": "LiteraryExplorer", "rating": "★★★★☆", "text": "A poignant account, a must-read."},
+      {"user": "PageTurner42", "rating": "★★★★★", "text": "This book deeply moved me."}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "The Exchange: After The Firm",
+    "imageSrc": "Assets/img/book3.png",
+    "description": "Description:What became of Mitch and Abby McDeere...",
+    "price": 18,
+    "stars": "★★★☆☆",
+    "productDetails": {
+      "age": "13+ years+",
+      "binding": "352 pages",
+      "language": "English",
+      "publisher": "Doubleday (October 17, 2023)"
+    },
+    "comments": [
+      {"user": "NovelNerd", "rating": "★★★★☆", "text": "This book is an incredible source of inspiration for me..."},
+      {"user": "BibliophileKate", "rating": "★★☆☆☆", "text": "I expected better..."}
+    ]
+  }
+]
