@@ -52,5 +52,278 @@
       {"user": "NovelNerd", "rating": "★★★★☆", "text": "This book is an incredible source of inspiration for me..."},
       {"user": "BibliophileKate", "rating": "★★☆☆☆", "text": "I expected better..."}
     ]
-  }
+  },
+  {
+    "id": 4,
+    "title": "Time of Justice",
+    "imageSrc": "Assets/img/book4.png",
+    "description": "Description:Small-town prosecutor Mara Brent has faced up to the toughest criminals without flinching. She is the voice for the most vulnerable of victims. But there’s one woman who has waited for justice for far too long.Beaten, brutalized and left for dead on a riverbank, Denise Silvers never thought she’d live to see her attacker pay for what he did to her. When a simple ancestry test breaks the case wide open, Mara is in for the biggest courtroom battle of her career.Though the suspect is accused of dozens of similar assaults, only Mara’s case has the iron-clad evidence to put him away. But unexpected bombshells at trial threaten to muddy her black-and-white conviction into frightening shades of gray. She suspects there’s a sinister conspiracy out to torpedo the verdict.Can Mara uncover the truth before a serial predator finds his next victim?Time of Justice is the first book in the pulse-pounding Mara Brent Legal Thriller Series. If you like strong heroines, page-turning twists, and dark suspense, then you’ll love Robin James’s edge-of-your-seat novel.",
+    "price": 4.99,
+    "stars": "★★★☆☆",
+    "productDetails": {
+        "age": "16+ years+",
+        "binding": "252 pages",
+        "language": "English",
+        "publisher": "Robin James Books (January 28, 2020)"
+    },
+    "comments": [
+        { "user": "LitLover123", "rating": "★★★★★", "text": "This novel transported me to a completely different world. The story was captivating, and the characters were so well-developed." },
+        { "user": "StorySeeker", "rating": "★★☆☆☆", "text": "I struggled to immerse myself in this story. The characters lacked depth." }
+    ]
+},
+
+{
+    "id": 5,
+    "title": "Killing the Witches: The Horror of Salem, Massachusetts",
+    "imageSrc": "Assets/img/book5.png",
+    "description": "Description:Killing the Witches revisits one of the most frightening and inexplicable episodes in American history: the events of 1692 and 1693 in Salem Village, Massachusetts. What began as a mysterious affliction of two young girls who suffered violent fits and exhibited strange behavior soon spread to other young women. Rumors of demonic possession and witchcraft consumed Salem. Soon three women were arrested under suspicion of being witches--but as the hysteria spread, more than 200 people were accused. Thirty were found guilty, twenty were executed, and others died in jail or their lives were ruined.Killing the Witches tells the dramatic history of how the Puritan tradition and the power of early American ministers shaped the origins of the United States, influencing the founding fathers, the American Revolution, and even the Constitutional Convention. The repercussions of Salem continue to the present day, notably in the real-life story behind The Exorcist and in contemporary “witch hunts” driven by social media. The result is a compulsively readable book about good, evil, community panic, and how fear can overwhelm fact and reason.",
+    "price": 22.20,
+    "stars": "★★★☆☆",
+    "productDetails": {
+        "age": "12+ years+",
+        "binding": "304 pages",
+        "language": "English",
+        "publisher": "St. Martin's Press (September 26, 2023)"
+    },
+    "comments": [
+        { "user": "ChapterChaser", "rating": "★★★★☆", "text": "This book reminded me of the importance of never giving up, no matter the obstacles. It motivated me to persevere in my own challenges." },
+        { "user": "ProsePassion", "rating": "★★☆☆☆", "text": "The advice was clichéd and not very practical. I expected something more original. " }
+    ]
+},
+{
+    "id": 6,
+    "title": "Straight Shot: A Tom Keeler Thriller: Book 1",
+    "imageSrc": "Assets/img/book6.png",
+    "description" : "Description:Nice place, nice try.But it’s a case of mistaken identity, and they picked the wrong guy.The French police can’t be trusted, except for the beautiful Cecile Nazari.She finds out fast, that keeping up with Keeler is a dangerous occupation.Because someone’s preying on the weak and unprotected.Someone murderous.But they never counted on coming up against a guy like Keeler.",
+    "price": 14.00,
+    "stars": "★★★★☆",
+    "productDetails": {
+        "age": "10+ years+",
+        "binding": "366 pages",
+        "language": "English",
+        "publisher": "General Projects (May 19, 2020)"
+    },
+    "comments": [
+        { "user": "User 3", "rating": "★★★★★", "text": "I loved getting lost in the pages of this book. The author has a magical way of describing scenes and emotions. " },
+        { "user": "User 4", "rating": "★★★☆☆", "text": "The story was enjoyable, but I expected more detailed descriptions." }
+    ]
+},
+{
+  "id": 7,
+    "title": "Dracula: The Original 1897 Edition (A Bram Stoker Classic Novel)",
+    "imageSrc": "Assets/img/book7.png",
+    "description": "Description:Dracula is an 1897 Gothic horror novel by Irish author Bram Stoker.Famous for introducing the character of the vampire Count Dracula, the novel tells the story of Dracula's attempt to move from Transylvania to England so he may find new blood and spread undead curse, and the battle between Dracula and a small group of men and women led by Professor Abraham Van Helsing.Dracula has been assigned to many literary genres including vampire literature, horror fiction, the gothic novel and invasion literature. The novel touches on themes such as the role of women in Victorian culture, sexual conventions, immigration, colonialism, and post-colonialism.Although Stoker did not invent the vampire, he defined its modern form, and the novel has spawned numerous theatrical, film and television interpretations.",
+    "price": 23.50,
+    "stars": "★★★★☆",
+    "productDetails": {
+        "age": "17+ years+",
+        "binding": "260 pages",
+        "language": "English",
+        "publisher": "Independently published (February 1, 2023)"
+    },
+    "comments": [
+        { "user": "WordWizard17", "rating": "★★★★★", "text": "This novel made me believe in true love. The characters were so endearing, and their love story touched me deeply." },
+        { "user": "ReadMoreSam", "rating": "★★★☆☆", "text": " The story was predictable, and the characters lacked development. " }
+    ]
+},
+{
+    "id": 8,
+    "title": "Frankenstein: The 1818 Text",
+    "mageSrc": "Assets/img/book8.png",
+    "description": "Description : Frankenstein; or, The Modern Prometheus, is a novel written by English author Mary Shelley about the young student of science Victor Frankenstein, who creates a grotesque but sentient creature in an unorthodox scientific experiment. Shelley started writing the story when she was eighteen, and the novel was published when she was twenty. The first edition was published anonymously in London in 1818. Shelley's name appears on the second edition, published in France in 1823.Shelley had travelled through Europe in 1814, journeying along the river Rhine in Germany with a stop in Gernsheim which is just 17 km (10 mi) away from Frankenstein Castle, where two centuries before an alchemist was engaged in experiments. Later, she travelled in the region of Geneva (Switzerland)—where much of the story takes place—and the topics of galvanism and other similar occult ideas were themes of conversation among her companions, particularly her lover and future husband, Percy Shelley. Mary, Percy, Lord Byron, and John Polidori decided to have a competition to see who could write the best horror story. After thinking for days, Shelley dreamt about a scientist who created life and was horrified by what he had made; her dream later evolved into the story within the novel.",
+    "price": 26.50,
+    "stars": "★★★☆☆",
+    "productDetails": {
+        "age": "11+ years+",
+        "binding": "288 pages",
+        "language": "English",
+        "publisher": "Penguin Classics (January 16, 2018)"
+    },
+    "comments": [
+        { "user": "PlotPioneer", "rating": "★★★★☆", "text": "This book is a source of timeless wisdom. The teachings it contains are valuable for anyone seeking a balanced and fulfilling life." },
+        { "user": "BookishBelle", "rating": "★★☆☆☆", "text": " I expected more depth in the teachings. Some parts were too superficial." }
+    ]
+},
+{
+  "id": 9,
+    "title": "New Dragon City ",
+    "imageSrc": "Assets/img/book9.png",
+    "description": "Description:No one predicted the dragon apocalypse. The dragons came suddenly and decimated the world as we knew it, including New York City. Now, three years later, Noah, his hardcore survivalist father, and a ragtag group of survivors are barely scraping by in this new reality. Kids scavenge not only for materials in abandoned homes but also for leftover books at the library. Adults spend their time establishing a make-shift society and defending their shelter... with any means available. At least for the few months the dragons are hibernating, until it’s no longer safe aboveground.Noah has seen the damage these creatures can do firsthand. When it comes to dragons: It's kill or be killed. But a chance encounter between Noah and a young dragon causes him to question everything he thought he knew. With rumors spreading that there’s a group of survivors living in harmony with dragons instead of hiding underground, Noah teams up with his fire-breathing ally to find out if peace between humans and dragons is really possible. But the division runs deeper than scales versus skin because trying to follow his heart might just cost Noah his family too. If Noah and his father can’t see eye to eye, can he really get humans and dragons to?",
+    "price": 12.89,
+    "stars": "★★★☆☆",
+    "productDetails": {
+        "age": "8 - 12 years",
+        "binding": "352 pages",
+        "language": "English",
+        "publisher": "Little, Brown Books for Young Readers (October 4, 2022)"
+    },
+    "comments": [
+        { "user": "LiteraryLion", "rating": "★★★★★", "text": "This book completely changed my perspective on life. It's a must-read for anyone looking for a fresh outlook." },
+        { "user": "InkedAdventurer", "rating": "★★☆☆☆", "text": "I found this book to be a bit too abstract for my taste. It left me wanting more concrete advice. " }
+    ]
+},
+{
+    "id": 10,
+    "title": "Warriors: A Starless Clan #3: Shadow",
+    "imageSrc": "Assets/img/book10.png",
+    "description": "Description:The warrior code now allows a cat to formally change Clans, but ShadowClan’s newest arrival feels increasingly unwelcome—and though ShadowClan warrior Sunbeam thinks every cat deserves a chance, one of the loudest voices of opposition is her own mother. Meanwhile medicine cat apprentice Frostpaw scrambles to help RiverClan stay afloat under the watchful eye of a second Tigerstar, and the shadow of growing conflict looms over them all…",
+    "price": 12.31,
+    "stars": "★★★★☆",
+    "productDetails": {
+        "age": "8 - 12 years",
+        "binding": "320 pages",
+        "language": "English",
+        "publisher": "HarperCollins (April 4, 2023)"
+    },
+    "comments": [
+        { "user": "VerseVoyager", "rating": "★★★★★", "text": "I couldn't put this book down. The suspense and plot twists had me hooked from start to finish." },
+        { "user": "NovelNavigator", "rating": "★★★☆☆", "text": "The characters felt one-dimensional, and the story dragged on in some parts." }
+    ]
+},
+{
+    "id": 11,
+    "title": "The Secret: A Jack Reacher Novel",
+    "imageSrc": "Assets/img/book11.png",
+    "description": "Description:1992. All across the United States respectable, upstanding citizens are showing up dead. These deaths could be accidents, and they don’t appear to be connected—until a fatal fall from a high-floor window attracts some unexpected attention.That attention comes from the secretary of defense. All of a sudden he wants an interagency task force to investigate. And he wants Jack Reacher as the army’s representative. If Reacher gets a result, great. If not, he’s a convenient fall guy.But office politics isn’t Reacher’s thing. Three questions quickly emerge: Who’s with him, who’s against him, and will the justice he dispenses be the official kind . . . or his own kind?",
+    "price": 14.99,
+    "stars": "★★★☆☆",
+    "productDetails": {
+        "age": "9 - 13 years",
+        "binding": "296 pages",
+        "language": "English",
+        "publisher": "Delacorte Press (October 24, 2023)"
+    },
+    "comments": [
+        { "user": "BookWormEmma", "rating": "★★★★★", "text": "I couldn't put this book down. The suspense and plot twists had me hooked from start to finish." },
+        { "user": "LitLoverAlex", "rating": "★★★☆☆", "text": "The characters felt one-dimensional, and the story dragged on in some parts." }
+    ]
+},
+{
+  "id": 12,
+    "title": "The Summer House: The Classic Blockbuster from the Author of Lion & Lamb ",
+    "imageSrc": "Assets/img/book12.png",
+    "description": "Description:Once a luxurious southern getaway on a rustic lake, then reduced to a dilapidated crash pad, the Summer House is now the grisly scene of a nighttime mass murder. Eyewitnesses point to four Army Rangers—known as the Night Ninjas—recently returned from Afghanistan.To ensure that justice is done, the Army sends Major Jeremiah Cook, a veteran and former NYPD cop, to investigate. But the major and his elite team arrive in sweltering Georgia with no idea their grim jobs will be made exponentially more challenging by local law enforcement, who resists the Army's intrusion and stonewall them at every turn. As Cook and his squad struggle to uncover the truth behind the condemning evidence, the pieces just won't fit—and forces are rallying to make certain damning secrets die alongside the victims in the murder house. With his own people in the cross-hairs, Cook takes a desperate gamble to find answers—even if it means returning to a hell of his own worst nightmares . . . ",
+    "price": 14.99,
+    "stars": "★★★★☆",
+    "productDetails": {
+        "age": "13 years",
+        "binding": "480 pages",
+        "language": "English",
+        "publisher": "Grand Central Publishing; Reissue edition (June 28, 2022)"
+    },
+    "comments": [
+        { "user": "StoryScribe21", "rating": "★★★★★", "text": "The insights in this book have been invaluable to me. It's like a guidebook for personal growth and self-discovery." },
+        { "user": "PagePaladin", "rating": "★★★☆☆", "text": "I expected more practical tips and less theory. Some concepts were hard to apply in real life. " }
+    ]
+},
+{
+    "id": 13,
+    "title": "Edge of Collapse: A Post-Apocalyptic Survival Thriller",
+    "imageSrc": "Assets/img/book13.png",
+    "description": "Description:But for Hannah Sheridan, it's the best day of her life. For the last five years, she's been the captive of a sadistic psychopath--until the EMP releases the lock of her prison.Battered but not broken, she emerges from her underground cell into a hostile winter wilderness with nothing but the clothes on her back and her determination to survive.Reclusive Special Forces soldier Liam Coleman is headed nowhere fast. He believed he was prepared for any disaster. Then everything he cared about was taken from him in a matter of seconds.Two hundred frozen, perilous miles stand between Hannah and Liam and their destination in rural Michigan.But the killing cold isn't the only threat, for Hannah's captor isn't about to let her go...When the country goes dark, ordinary people find themselves facing the end of the world as they know it. With society collapsing before their eyes, they'll have to risk everything to protect their home and the people they love.From USA Today Bestselling Author Kyla Stone comes the acclaimed Edge of Collapse series, a post-apocalyptic EMP survival thriller featuring complex characters and high-octane action adventure. Perfect for fans of The Last of Us, The Walking Dead, SILO, and The Road.",
+    "price": 13.66,
+    "stars": "★★★★☆",
+    "productDetails": {
+        "age": "13 years",
+        "binding": "316 pages",
+        "language": "English",
+        "publisher": " Paper Moon Press (January 31, 2020)"
+    },
+    "comments": [
+        { "user": "BookBuffBrad", "rating": "★★★★★", "text": "I laughed, I cried, and I couldn't get enough of this book. It's an emotional rollercoaster that I'd recommend to anyone. " },
+        { "user": "PlotPirate", "rating": "★★☆☆☆", "text": "The story felt clichéd, and the characters' actions didn't always make sense to me. " }
+    ]
+},
+{
+    "id": 14,
+    "title": "The Boy From Block 66: A WW2 Jewish Holocaust Survival True Story (Heroic Children of World War II) ",
+    "imageSrc": "Assets/img/book14.png",
+    "description": "Description:January, 1945. 14-year-old Moshe Kessler steps off the train at Buchenwald concentration camp. Having endured the horrors of Auschwitz-Birkenau, lost touch with his entire family, and survived the death march in the freezing European winter, he has seen more than his share of tragedy.Moshe knows only one thing about Buchenwald. Everyone knows it.If you want to survive, you have to get to Block 66.The Germans are cruel and determined – but they are not prepared for Buchenwald’s secret resistance, which rises up with one mission only: to protect the camp’s children from harm.This is the incredible true story of Moshe Kessler and Block 66 – the children’s block that was at the forefront of one of the most shocking and inspiring stories of Holocaust survival.",
+    "price": 16.99,
+    "stars": "★★★☆☆",
+    "productDetails": {
+        "age": "11 years",
+        "binding": "243 pages",
+        "language": "English",
+        "publisher": "Independently published (January 11, 2023)"
+    },
+    "comments": [
+        { "user": "BookishJourney", "rating": "★★★★★", "text": "I found this book to be a masterpiece of storytelling. The writing was exquisite, and the plot was brilliantly constructed." },
+        { "user": "BibliophileBeth", "rating": "★★☆☆☆", "text": "It was a struggle to get through this book. The pacing was slow, and the ending left me unsatisfied." }
+    ]
+},
+{
+    "id": 15, 
+    "title": "All the Broken Places: A Novel ",
+    "imageSrc": "Assets/img/book15.png",
+    "description": "Description:Ninety-one-year-old Gretel Fernsby has lived in the same well-to-do mansion block in London for decades. She lives a quiet, comfortable life, despite her deeply disturbing, dark past. She doesn’t talk about her escape from Nazi Germany at age 12. She doesn’t talk about the grim post-war years in France with her mother. Most of all, she doesn’t talk about her father, who was the commandant of one of the Reich’s most notorious extermination camps.Then, a new family moves into the apartment below her. In spite of herself, Gretel can’t help but begin a friendship with the little boy, Henry, though his presence brings back memories she would rather forget. One night, she witnesses a disturbing, violent argument between Henry’s beautiful mother and his arrogant father, one that threatens Gretel’s hard-won, self-contained existence.All The Broken Places moves back and forth in time between Gretel’s girlhood in Germany to present-day London as a woman whose life has been haunted by the past. Now, Gretel faces a similar crossroads to one she encountered long ago. Back then, she denied her own complicity, but now, faced with a chance to interrogate her guilt, grief and remorse, she can choose to save a young boy. If she does, she will be forced to reveal the secrets she has spent a lifetime protecting. This time, she can make a different choice than before—whatever the cost to herself….",
+    "price": 19.00,
+    "stars": "★★★☆☆",
+    "productDetails": {
+        "age": "10 years",
+        "binding": "400 pages",
+        "language": "English",
+        "publisher": "Pamela Dorman Books (November 29, 2022)"
+    },
+    "comments": [
+        { "user": "ChapterCrafter", "rating": "★★★★☆", "text": "I found this book to be a masterpiece of storytelling. The writing was exquisite, and the plot was brilliantly constructed." },
+        { "user": "NovelNomad", "rating": "★★★☆☆", "text": "It was a struggle to get through this book. The pacing was slow, and the ending left me unsatisfied." }
+    ]
+},
+{
+    "id": 16,
+    "title": "The Island",
+    "imageSrc": "Assets/img/book16.png",
+    "description": "Description:Jagged Island: a private amusement park for the very rich—or the very influential. Liam, James, Will, Ava, Harper, and Paisley—social media influencers with millions of followers—have been invited for an exclusive weekend before the park opens. They’ll make posts and videos for their channels and report every second of their VIP treatment.When the teens arrive, they're stunned: the resort is even better than they’d imagined. Their hotel rooms are unreal, the park’s themed rides are incredible, and the island is hauntingly beautiful. They’re given a jam-packed itinerary for the weekend.But soon they'll discover that something's missing from their schedule: getting off the island alive.",
+    "price": 9.74,
+    "stars": "★★★☆☆",
+    "productDetails": {
+        "age": "18 years",
+        "binding": "336 pages",
+        "language": "English",
+        "publisher": "Delacorte Press (February 28, 2023)"
+    },
+    "comments": [
+        { "user": "ProsePioneer", "rating": "★★★★★", "text": "This book was a page-turner, and I was invested in the characters' fates until the very end." },
+        { "user": "WordWeaver99", "rating": "★★☆☆☆", "text": "The plot was convoluted, and the ending felt rushed and unsatisfying. " }
+    ]
+},
+{
+    "id": 17,
+    "title": "The Lake ",
+    "imageSrc": "Assets/img/book17.png",
+    "description": "Description:Esme and Kayla once were campers at Camp Pine Lake. Now they’re back as counselors-in-training. Esme loves the little girls in her cabin and thinks it’s funny how scared they are of everything—the woods, the bugs, the boys...even swimming in the lake. It reminds her of how she and Kayla used to be. Before...Because Esme and Kayla did something terrible when they were campers. Something they’ve kept a secret all these years. They vow that this summer will be awesome. Two months of sun, s’mores, and flirting with the cute boy counselors. But then they get a message THE LAKE NEVER FORGETS.The secret they’ve kept buried for so many years is about to resurface.",
+    "price": 7.64,
+    "stars": "★★★☆☆",
+    "productDetails": {
+        "age": "12 - 17 years",
+        "binding": "384 pages",
+        "language": "English",
+        "publisher": "Delacorte Press (March 2, 2021)"
+    },
+    "comments": [
+        { "user": "BookWormSarah", "rating": "★★★★★", "text": "This book is a thrilling ride through the unknown. The suspense and unexpected twists kept me on the edge of my seat." },
+        { "user": "PageTurnerJohn", "rating": "★★☆☆☆", "text": " While the story had potential, the ending was a letdown. It left too many loose ends unresolved." }
+    ]
+
+
+},
+{
+    "id": 18,
+    "title": "The Cabin",
+    "imageSrc": "Assets/img/book18.png",
+    "description": "Description:A weekend partying at a remote cabin is just what Mackenzie needs. She can't wait to let loose with her friends. But a crazy night of fun leaves two of them dead―murdered.With no signs of a forced entry or struggle, suspicion turns to the five survivors. Someone isn't telling the truth. And Mackenzie's first mistake? Assuming the killing is over...",
+    "price": 8.03,
+    "stars": "★★★☆☆",
+    "productDetails": {
+        "age": "14 - 17 years",
+        "binding": "336 pages",
+        "language": "English",
+        "publisher": "Sourcebooks Fire (September 6, 2016)"
+    },
+    "comments": [
+        { "user": "LiteraryScribe", "rating": "★★★★★","text": "This book is a beautifully written masterpiece. The lyrical prose and deep themes make it a must-read for literature enthusiasts." },
+        { "user": "PlotPioneerMia", "rating": "★★☆☆☆", "text": " I found the book overly pretentious, with a convoluted narrative that made it difficult to connect with the characters. " }
+    ]
+}
 ]
