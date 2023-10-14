@@ -1,0 +1,4 @@
+1) add readme file with instructions
+2)add gitignore to delete the node folder
+fetch the books from the database and not from html file
+ajust the detail page (id)
