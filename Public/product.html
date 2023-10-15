@@ -1,181 +1,22 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Product page</title>
+    <title>Product Page</title>
+    <link rel="stylesheet" href="Assets/css/menu.css">
     <link rel="stylesheet" href="Assets/css/product.css">
-
 </head>
 <body>
-    <iframe src="menu.html" frameborder="0" scrolling="no" width="100%" height="100"></iframe>
-
+    <div id="menu-container"></div>
     <h1>List of Books</h1>
     <div class="container">
+        <label for="searchInput" class="visually-hidden"></label>
         <input type="text" id="searchInput" class="search-bar" placeholder="Search for a book by title" onkeyup="searchBooks()">
     </div>
-
-<!-- Livre 1 -->
-<div class="livre-card" onclick="ouvrirPageProduit(0)"> <!-- Utilisez 0 pour le premier livre -->
-    <a href="productdetail.html?book=0"><img src="Assets/img/book1.png" alt="Livre 1"></a>
-    <div class="livre-title">The Odyssey</div>
-    <div class="livre-rating">★★★★☆</div>
-    <div class="livre-title">$9.89</div>
-    
-</div>
-<!-- Livre 2 -->
-<div class="livre-card" onclick="ouvrirPageProduit(1)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=1"><img src="Assets/img/book2.png" alt="Livre 2"></a>
-    <div class="livre-title">Harry Potter and </div>
-    <div class="livre-title"> the Prisoner of Azkaban</div>
-    <div class="livre-rating">★★★★★</div>
-    <div class="livre-title">$28.26</div> 
-
-</div>
-<!-- Livre 3 -->
-<div class="livre-card" onclick="ouvrirPageProduit(2)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=2"><img src="Assets/img/book3.png" alt="Livre 3"></a> 
-    <div class="livre-title">The Exchange: After The Firm</div>
-    <div class="livre-rating">★★★☆☆</div>
-    <div class="livre-title">$18.95</div>
-
-</div>
-<!-- Livre 4 -->
-<div class="livre-card" onclick="ouvrirPageProduit(3)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=3"><img src="Assets/img/book4.png" alt="Livre 4"></a> 
-    <div class="livre-title">Time of Justice</div>
-    <div class="livre-rating">★★★☆☆</div>
-    <div class="livre-title">$14.99</div> 
-
-</div>
-<!-- Livre 5 -->
-<div class="livre-card" onclick="ouvrirPageProduit(4)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=4"><img src="Assets/img/book5.png" alt="Livre 5"></a> 
-    <div class="livre-title">Killing the Witches: The Horror </div>
-    <div class="livre-title"> of Salem, Massachusetts</div>
-    <div class="livre-rating">★★★☆☆</div>
-    <div class="livre-title">$22.20</div> 
-
-</div>
-<!-- Livre 6 -->
-<div class="livre-card" onclick="ouvrirPageProduit(5)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=5"><img src="Assets/img/book6.png" alt="Livre 6"></a>  
-    <div class="livre-title">Straight Shot: A Tom Keeler </div>
-    <div class="livre-title">Keeler Thriller: Book 1</div>
-    <div class="livre-rating">★★★★☆</div>
-    <div class="livre-title">$14.00</div>
-
-</div>
-<!-- Livre 7 -->
-<div class="livre-card" onclick="ouvrirPageProduit(6)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=6"><img src="Assets/img/book7.png" alt="Livre 7"></a> 
-    <div class="livre-title">Dracula: The Original 1897 Edition </div>
-    <div class="livre-title">(A Bram Stoker Classic Novel)</div>
-    <div class="livre-rating">★★★★☆</div>
-    <div class="livre-title">$23.50</div>
-
-</div>
-<!-- Livre 8 -->
-<div class="livre-card" onclick="ouvrirPageProduit(7)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=7"><img src="Assets/img/book8.png" alt="Livre 8"></a>  
-    <div class="livre-title">Frankenstein: The 1818 Text</div>
-    <div class="livre-rating">★★★☆☆</div>
-    <div class="livre-title">$26.50</div>
-</div>
-<!-- Livre 9 -->
-<div class="livre-card" onclick="ouvrirPageProduit(8)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=8"><img src="Assets/img/book9.png" alt="Livre 9"></a>  
-    <div class="livre-title">New Dragon City </div>
-    <div class="livre-rating">★★★☆☆</div>
-    <div class="livre-title">$12.89</div>
-
-</div>
-<!-- Livre 10 -->
-<div class="livre-card" onclick="ouvrirPageProduit(9)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=9"><img src="Assets/img/book10.png" alt="Livre 10"></a>  
-    <div class="livre-title">Warriors: A Starless </div>
-    <div class="livre-title">Clan #3: Shadow</div>
-    <div class="livre-rating">★★★★☆</div>
-    <div class="livre-title">$12.31</div>
-</div>
-<!-- Livre 11 -->
-<div class="livre-card" onclick="ouvrirPageProduit(10)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=10"><img src="Assets/img/book11.png" alt="Livre 11"></a> 
-    <div class="livre-title">The Secret: A</div>
-    <div class="livre-title">Jack Reacher Novel</div>
-    <div class="livre-rating">★★★☆☆</div>
-    <div class="livre-title">$14.99</div>
-
-</div>
-<!-- Livre 12 -->
-<div class="livre-card" onclick="ouvrirPageProduit(11)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=11"><img src="Assets/img/book12.png" alt="Livre 12"></a> 
-    <div class="livre-title">The Summer House: The Classic  </div>
-    <div class="livre-title">Blockbuster from the Author  </div>
-    <div class="livre-title">of Lion & Lamb </div>
-    <div class="livre-rating">★★★★☆</div>
-    <div class="livre-title">$14.99</div>
-
-</div>
-<!-- Livre 13 -->
-<div class="livre-card" onclick="ouvrirPageProduit(12)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=12"><img src="Assets/img/book13.png" alt="Livre 13"></a> 
-    <div class="livre-title">Edge of Collapse: A Post-</div>
-    <div class="livre-title">Apocalyptic Survival Thriller</div>
-    <div class="livre-rating">★★★★☆</div> 
-    <div class="livre-title">$13.66</div>
-
-</div>
-<!-- Livre 14 -->
-<div class="livre-card" onclick="ouvrirPageProduit(13)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=13"><img src="Assets/img/book14.png" alt="Livre 14"></a>  
-    <div class="livre-title">The Boy From Block 66: A WW2 Jewish </div>
-    <div class="livre-title"> Holocaust Survival True Story </div>
-    <div class="livre-title"> (Heroic Children of World War II)</div>
-    <div class="livre-rating">★★★☆☆</div>
-    <div class="livre-title">$16.99</div>
-
-</div>
-<!-- Livre 15 -->
-<div class="livre-card" onclick="ouvrirPageProduit(14)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=14"><img src="Assets/img/book15.png" alt="Livre 15"></a> 
-    <div class="livre-title">All the Broken </div>
-    <div class="livre-title">Places: A Novel </div>
-    <div class="livre-rating">★★★☆☆</div>
-    <div class="livre-title">$19.00</div>
-
-</div>
-<!-- Livre 16   -->
-<div class="livre-card" onclick="ouvrirPageProduit(15)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=15"><img src="Assets/img/book16.png" alt="Livre 16"></a> 
-    <div class="livre-title">The Island</div>
-    <div class="livre-rating">★★★☆☆</div>
-    <div class="livre-title">$9.74</div>
-
-</div>
-<!-- Livre 17   -->
-<div class="livre-card" onclick="ouvrirPageProduit(16)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=16"><img src="Assets/img/book17.png" alt="Livre 17"></a>  
-    <div class="livre-title">The Lake </div>
-    <div class="livre-rating">★★★☆☆</div>
-    <div class="livre-title">$7.64 </div>
-
-</div>
-<!-- Livre 18   -->
-<div class="livre-card" onclick="ouvrirPageProduit(17)"> <!-- Utilisez 1 pour le deuxième livre -->
-    <a href="productdetail.html?book=17"><img src="Assets/img/book18.png" alt="Livre 18"></a>  
-    <div class="livre-title">The Cabin</div>
-    <div class="livre-rating">★★★☆☆</div>
-    <div class="livre-title">$8.03</div>
-
-</div>
-<script src="Assets/js/product.js"></script>
-<iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="100"></iframe>
-
+    <div id="books-container" class="container"></div>
+    <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="100"></iframe>
+    <script src="Assets/js/product.js"></script>
+    <script src="Assets/js/menu.js"></script>
 </body>
-
 </html>
-
-
-
