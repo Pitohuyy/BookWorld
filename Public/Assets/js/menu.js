@@ -9,13 +9,13 @@ function generateMenu() {
     const homeMenuItem = createMenuItem("Home", "home.html");
     const productMenuItem = createMenuItem("product", "product.html");
     const aboutMenuItem = createMenuItem("About us", "about.html");
-    const contactMenuItem = createMenuItem("Contact", "contact.html");
-    const cartMenuItem = createMenuItem("Contact", "contact.html");
+    const contactMenuItem = createMenuItem("Contact", "test1.html");
+    const cartMenuItem = createMenuItem("cart", "cart.html");
 
     
     // Ajoutez les éléments de menu à la liste
     menu.appendChild(homeMenuItem);
-    menu.appendChild(aboutMenuItem);
+    menu.appendChild(productMenuItem);
     menu.appendChild(aboutMenuItem);
     menu.appendChild(contactMenuItem);
     menu.appendChild(cartMenuItem);
@@ -36,5 +36,6 @@ function generateMenu() {
   }
   
   // Appelez la fonction pour générer le menu lorsque la page est chargée
-  window.addEventListener("load", generateMenu);
-  
+  document.addEventListener("DOMContentLoaded", function () {
+    generateMenu();
+});
