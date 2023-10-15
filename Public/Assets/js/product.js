@@ -1,8 +1,19 @@
 //PRODUCT DISPLAY
 
 document.addEventListener("DOMContentLoaded", function() {
-    loadBooks();
+  loadBooks();
+
+  // Sélectionnez tous les éléments de lien avec la classe "book-link".
+  const bookLinks = document.querySelectorAll(".book-link");
+
+  bookLinks.forEach(bookLink => {
+      bookLink.addEventListener("click", function(event) {
+          event.preventDefault(); // Empêche le lien hypertexte de se comporter normalement.
+          const bookId = bookLink.getAttribute("data-book-id");
+          window.location.href = `productdetail.html?book=${bookId}`;
+      });
   });
+});
   
   function loadBooks() {
     fetchBooks()
