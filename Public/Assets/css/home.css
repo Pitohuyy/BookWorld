@@ -1,37 +1,4 @@
-/* style.css */
 
-/* Style de base pour la liste non ordonnée (ul) du menu */
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    background-color: #333; /* Couleur de fond du menu */
-    padding-top: 30px;
-    padding-left: 80px;
-    display: flex;
-    justify-content: start;
-  }
-  
-  /* Style des éléments de la liste (li) du menu */
-  li {
-    display: inline; /* Afficher les éléments en ligne */
-    margin-right: 40px; /* Marge à droite entre les éléments */
-    
-  }
-  
-  /* Style des liens (a) du menu */
-  li a {
-    text-decoration: none; /* Supprimer la décoration du lien */
-    color: #fff; /* Couleur du texte du lien */
-    font-weight: bold; /* Gras */
-  }
-  
-  /* Style des liens (a) au survol de la souris */
-  li a:hover {
-    background-color: #555; /* Couleur de fond au survol */
-    border-radius: 5px; /* Coins arrondis */
-  }
-  
   .searchProduct{
     display: inline;
     border-radius: 20px;

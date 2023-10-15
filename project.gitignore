@@ -1,0 +1,2 @@
+# Ignorer le répertoire des dépendances Node.js (généré par npm ou yarn)
+node_modules/
