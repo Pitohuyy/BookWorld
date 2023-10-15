@@ -9,7 +9,7 @@ function generateMenu() {
     const homeMenuItem = createMenuItem("Home", "home.html");
     const productMenuItem = createMenuItem("product", "product.html");
     const aboutMenuItem = createMenuItem("About us", "about.html");
-    const contactMenuItem = createMenuItem("Contact", "test1.html");
+    const contactMenuItem = createMenuItem("Contact", "contact.html");
     const cartMenuItem = createMenuItem("cart", "cart.html");
 
     
