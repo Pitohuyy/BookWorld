@@ -8,33 +8,25 @@ function loadCartDetails() {
     const cartBody = document.getElementById("cart-tbody");
     cartBody.innerHTML = '';
 
-    Object.keys(cart).forEach((productTitle, i) => {
+    Object.keys(cart).forEach((productTitle) => {
         const product = cart[productTitle];
 
-        let newTr = document.createElement("tr");
-        let newTd1 = document.createElement("td");
-        let newTd2 = document.createElement("td");
-        let newTd3 = document.createElement("td");
-        let newTd4 = document.createElement("td");
-        let newTd5 = document.createElement("td");
+        let newRow = document.createElement("tr");
+        newRow.innerHTML = `
+            <td class="product-title">${productTitle}</td>
+            <td class="product-price">${product.price}€</td>
+            <td class="product-quantity">
+                <button class="remove-quantity-button" onclick="removeQuantity('${productTitle}')">-</button>
+                <span>${product.quantity}</span>
+                <button class="add-quantity-button" onclick="addQuantity('${productTitle}')">+</button>
+            </td>
+            <td class="product-actions">
+                <button class="delete-button" onclick="deleteProduct('${productTitle}')">Delete</button>
+            </td>
+        `;
 
-        newTd1.innerText = productTitle;
-        newTd2.innerText = product.quantity;
-        newTd3.innerText = product.price;
-        newTd4.innerText = product.price * product.quantity;
-        newTd5.innerHTML = `<button onclick="addQuantity('${productTitle}')">+</button>
-                            <button onclick="lessQuantity('${productTitle}')">-</button>
-                            <button onclick="deleteProduct('${productTitle}')">Delete</button>`;
+        cartBody.appendChild(newRow);
 
-        newTr.append(newTd1, newTd2, newTd3, newTd4, newTd5);
-
-        if(i % 2 === 0){
-            newTr.style.backgroundColor = "#ff7f27";
-        } else {
-            newTr.style.backgroundColor = "#cacaca";
-        }
-
-        cartBody.append(newTr);
         finalPrice += product.price * product.quantity;
     });
 
@@ -48,9 +40,9 @@ function addQuantity(productTitle) {
     loadCartDetails();
 }
 
-function lessQuantity(productTitle) {
+function removeQuantity(productTitle) {
     const cart = JSON.parse(localStorage.getItem('cart'));
-    if(cart[productTitle].quantity > 1) {
+    if (cart[productTitle].quantity > 1) {
         cart[productTitle].quantity -= 1;
         localStorage.setItem('cart', JSON.stringify(cart));
         loadCartDetails();
@@ -63,3 +55,7 @@ function deleteProduct(productTitle) {
     localStorage.setItem('cart', JSON.stringify(cart));
     loadCartDetails();
 }
+
+document.getElementById("checkoutButton").addEventListener("click", function() {
+    // Ajoutez ici le code pour le passage de commande
+});
