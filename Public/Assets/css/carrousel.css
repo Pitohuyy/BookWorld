@@ -1,32 +1,33 @@
 /* Style du conteneur du carrousel */
 .carousel-container {
+    width: 100%;
+    overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content:space-around;
-    margin: 20px;
-    padding: 10px;
-    background-color: #ff3b3b;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
+    justify-content: center; /* Centrage horizontal */
 }
 
 /* Style du carrousel lui-même */
 .carousel {
     display: flex;
     overflow: hidden;
+    width: 100%; /* Ajustez la largeur selon vos besoins */
 }
 
 /* Style du conteneur des livres */
 .books-container {
     display: flex;
-    gap: 100px; /* Espace entre les livres */
+    gap: 10px; /* Espace entre les livres */
+    align-items: center; /* Aligner les images à la même hauteur */
+    justify-content: center; /* Centrage horizontal des livres */
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    overflow: auto; /* Ajoute une barre de défilement horizontal si nécessaire */
 }
 
 /* Style des images des livres (réduction de la taille) */
 .book img {
-    max-width: 100px;
-    height: auto;
+    max-width: 150px; /* Ajustez la taille maximale selon vos besoins */
+    max-height: 200px; /* Ajustez la hauteur maximale selon vos besoins */
 }
 
 /* Style des boutons de navigation du carrousel */
@@ -47,35 +48,36 @@
 }
 
 .prev-btn {
-    margin-right: 10px;
+    margin-right: 10px; /* Ajustez la marge à droite pour le bouton précédent */
 }
 
-.next-btn {
-    margin-left: 10px;
+next-btn {
+    margin-left: 20px !important; /* Ajustez la marge à gauche pour le bouton suivant */
 }
 
-.book{
-    max-width: 200px;
+/* Style pour les images des livres */
+.book {
+    max-width: 250px;
     max-height: auto;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px; /* Abaissement des titres des livres */
 }
 
-.testC{
-    background-color: #f0f0f0;
-    width: 200px;
-    height: 300px;
-   align-items: center;
-   display: flex;
-   justify-content: center;
-   margin: 20px 0px;
+/* Style pour un élément testC */
+.testC {
+    /* Suppression de la couleur de fond */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
 }
 
-a{
+/* Style pour les liens */
+a {
     color: inherit; /* Réinitialise la couleur du texte à la valeur par défaut */
     text-decoration: none; /* Supprime la soulignement par défaut des liens */
 }
