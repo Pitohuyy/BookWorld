@@ -1,59 +1,95 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
+    background: #f0f0f0;
 }
 
 h1 {
-    color: #333;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
 }
 
 table {
-    width: 80%;
+    width: 70%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 th, td {
-    border: 1px solid #ccc;
+    text-align: left;
     padding: 8px;
-    text-align: center;
 }
 
 th {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #0077b6;
+    color: #fff;
 }
 
-td {
+tbody tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 2px 1px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+tbody tr:nth-child(odd) {
+    background-color: #e5e5e5;
 }
 
-button:hover {
-    background-color: white;
-    color: black;
-    border: 1px solid #4CAF50;
-}
-
-p {
-    font-size: 18px;
+.product-title {
     font-weight: bold;
+}
+
+.product-price, .product-quantity {
+    font-weight: 600;
+}
+
+.product-actions {
+    text-align: center;
+}
+
+.delete-button {
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.cart-summary {
+    width: 30%;
+    background: #0077b6;
+    color: #fff;
+    padding: 20px;
+}
+
+#checkoutButton {
+    background-color: #ff3300;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#similarProducts {
+    text-align: center;
+    margin: 20px;
+}
+
+#similarProducts h2 {
+    font-size: 20px;
+    color: #0077b6;
 }
