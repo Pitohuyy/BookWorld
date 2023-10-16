@@ -5,6 +5,7 @@
     "imageSrc": "Assets/img/book1.png",
     "description": "Description:Robert Fagles...",
     "price": 9,
+    "sales":1000,
     "stars": "★★★★☆",
     "productDetails": {
       "age": "18 years and up+",
@@ -23,6 +24,7 @@
     "imageSrc": "Assets/img/book2.png",
     "description": "Description:The third book in the Harry Potter series...",
     "price": 28,
+    "sales":10,
     "stars": "★★★★★",
     "productDetails": {
       "age": "15+ years+",
@@ -41,6 +43,7 @@
     "imageSrc": "Assets/img/book3.png",
     "description": "Description:What became of Mitch and Abby McDeere...",
     "price": 18,
+    "sales":100,
     "stars": "★★★☆☆",
     "productDetails": {
       "age": "13+ years+",

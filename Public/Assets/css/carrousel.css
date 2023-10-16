@@ -80,3 +80,35 @@ a{
     color: inherit; /* Réinitialise la couleur du texte à la valeur par défaut */
     text-decoration: none; /* Supprime la soulignement par défaut des liens */
 }
+
+
+/* Styles pour le conteneur du podium */
+.podium-container {
+    display: flex; /* Utilisez un conteneur flex pour afficher les livres côte à côte */
+    justify-content: space-between; /* Répartit l'espace entre les livres */
+    margin: 20px 0;/* Espacement entre le podium et le reste du contenu */
+}
+
+/* Styles pour chaque livre du podium */
+.podium-book {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+/* Styles pour le numéro du podium */
+
+
+/* Styles pour chaque livre du podium */
+.podium-book img {
+    width: 20%;
+    height: auto;
+}
+
+/* Styles pour le titre du livre */
+.podium-book h2 {
+    margin: 5px 0; /* Espacement entre le titre et le numéro du podium */
+}
+
+/* Autres styles au besoin */
+
