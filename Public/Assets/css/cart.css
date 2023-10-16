@@ -30,7 +30,7 @@ th, td {
 }
 
 th {
-    background-color: #0077b6;
+    background-color: #2096E0;
     color: #fff;
 }
 
@@ -65,7 +65,7 @@ tbody tr:nth-child(odd) {
 
 .cart-summary {
     width: 30%;
-    background: #0077b6;
+    background: #2096E0;
     color: #fff;
     padding: 20px;
 }
@@ -91,5 +91,5 @@ tbody tr:nth-child(odd) {
 
 #similarProducts h2 {
     font-size: 20px;
-    color: #0077b6;
+    color: #000000;
 }
