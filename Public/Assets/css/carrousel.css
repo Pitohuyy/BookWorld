@@ -51,7 +51,7 @@
     margin-right: 10px; /* Ajustez la marge à droite pour le bouton précédent */
 }
 
-next-btn {
+.next-btn {
     margin-left: 20px !important; /* Ajustez la marge à gauche pour le bouton suivant */
 }
 
@@ -81,3 +81,44 @@ a {
     color: inherit; /* Réinitialise la couleur du texte à la valeur par défaut */
     text-decoration: none; /* Supprime la soulignement par défaut des liens */
 }
+
+
+
+/* Style pour l'image de la catégorie "Best Seller Of The Month" */
+.large-image {
+    display: block;
+    margin: 0 auto; /* Centre horizontalement */
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
+    max-height: 500px; /* Ajustez la hauteur maximale de l'image */
+}
+
+.podium-container {
+    display: flex; /* Utilisez un conteneur flex pour afficher les livres côte à côte */
+    justify-content: space-between; /* Répartit l'espace entre les livres */
+    margin: 20px 0;/* Espacement entre le podium et le reste du contenu */
+}
+
+/* Styles pour chaque livre du podium */
+.podium-book {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+/* Styles pour le numéro du podium */
+
+
+/* Styles pour chaque livre du podium */
+.podium-book img {
+    width: 20%;
+    height: auto;
+}
+
+/* Styles pour le titre du livre */
+.podium-book h2 {
+    margin: 5px 0; /* Espacement entre le titre et le numéro du podium */
+}
+
+/* Autres styles au besoin */
+
+
