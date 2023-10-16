@@ -18,8 +18,8 @@
 .books-container {
     display: flex;
     gap: 10px; /* Espace entre les livres */
+    justify-content: space-between; /* Espacement uniforme entre les livres */
     align-items: center; /* Aligner les images à la même hauteur */
-    justify-content: center; /* Centrage horizontal des livres */
     width: 100%; /* Ajustez la largeur selon vos besoins */
     overflow: auto; /* Ajoute une barre de défilement horizontal si nécessaire */
 }
