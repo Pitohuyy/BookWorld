@@ -6,6 +6,7 @@
     <title>Your Cart</title>
     <link rel="stylesheet" href="Assets/css/menu.css">
     <link rel="stylesheet" href="Assets/css/cart.css">
+    <link rel="stylesheet" href="Assets/css/carrousel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="./Assets/js/menu.js"></script>
 </head>
@@ -34,8 +35,21 @@
     </div>
     <div id="similarProducts">
         <h2>See Similar Products</h2>
-        <!-- Ajoutez ici les produits similaires -->
+        <div class="carousel-container">
+            <button id="prevBtn" class="carousel-btn prev-btn" onclick="prevBooks()">
+              &#10094;
+            </button>
+            <div id="carousel" class="carousel">
+              <div class="books-container"></div>
+            </div>
+            <button id="nextBtn" class="carousel-btn next-btn" onclick="nextBooks()">
+              &#10095;
+            </button>
+          </div>
     </div>
     <script src="Assets/js/cart.js"></script>
+    <script src="Assets/js/carrousel.js"></script>
+    <div class="separator"></div>
+    <iframe src="footer.html" frameborder="0" scrolling="no" width="100%" height="100"></iframe>
 </body>
 </html>
