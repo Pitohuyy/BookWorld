@@ -136,16 +136,16 @@ function displayTopSellers() {
     // Affichez chaque livre du podium dans le conteneur
     topSellers.forEach((book, index) => {
         const bookHTML = `
-        <div class="wrappPodium">
             <div class="podium-book">
-                <p>#${index + 1}</p> <!-- Ajoutez le numéro du podium -->
-                <a class="podium-book" href="productdetail.html?bookId=${book.id}">
-                <img src="${book.imageSrc}" alt="${book.title}">
-                <h2>${book.title}</h2>
-                </a>
-                <p class="sellNumber">Nombre de ventes : ${book.sales}</p>
+                <p class="hashtag">#${index + 1}</p> <!-- Ajoutez le numéro du podium -->
+                <div class="podium-text">
+                  <a class="podium-book" href="productdetail.html?bookId=${book.id}">
+                    <img src="${book.imageSrc}" alt="${book.title}">
+                  </a>
+                <p class="txtLorem">${book.remarque}<br><br><br>Sells: ${book.sales}</p>
+                </div>
+                <h2 class="titleImg">${book.title}</h2>
             </div>
-        </div>
         `;
         podiumBooksContainer.insertAdjacentHTML('beforeend', bookHTML);
     });

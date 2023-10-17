@@ -82,3 +82,59 @@ a {
     color: inherit; /* Réinitialise la couleur du texte à la valeur par défaut */
     text-decoration: none; /* Supprime la soulignement par défaut des liens */
 }
+
+/* Styles pour le conteneur podium */
+.podium-container {
+    display: flex;
+    margin: 20px 0;
+    flex-direction: row;
+}
+
+/* Styles pour chaque élément podium */
+.podium-book {
+    flex: 1; /* Chaque élément occupe une part égale de l'espace disponible */
+   
+}
+
+.podium-text{
+    flex: 1; /* Chaque élément occupe une part égale de l'espace disponible */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 30px;
+}
+/* Styles pour l'image du livre */
+.podium-book img {
+    width: 200px;
+    height: auto;
+}
+
+/* Styles pour le titre du livre */
+.podium-book h2 {
+    margin: 5px 0;
+}
+
+/* Styles pour le numéro du podium */
+.podium-book p {
+    font-weight:400;
+}
+
+/* Styles pour le nombre de ventes */
+.podium-book .sellNumber {
+    color: #888; /* Couleur du texte pour les ventes */
+}
+
+.titleImg{
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.txtLorem{
+    font-size: 30px;
+}
+
+.hashtag{
+    padding-left:30px ;
+    font-size: 40px;
+}
+

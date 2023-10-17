@@ -142,7 +142,7 @@
   
   .titleBookNews{
     font-size: 42px;
-    padding: 100px 0px 20px 0px;
+    padding: 100px 0px 125px 0px;
     text-decoration:underline;
     display: flex;
     align-items: center;
@@ -151,7 +151,7 @@
   
   .titleBestSeller{
     font-size: 42px;
-    padding: 100px 0px 20px 0px;
+    padding: 175px 0px 75px 0px;
     text-decoration:underline;
     display: flex;
     align-items: center;
