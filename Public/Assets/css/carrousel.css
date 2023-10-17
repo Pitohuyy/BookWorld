@@ -130,11 +130,15 @@ a {
 }
 
 .txtLorem{
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .hashtag{
     padding-left:30px ;
     font-size: 40px;
+}
+
+.gold{
+    color: yellow;
 }
 
