@@ -97,14 +97,16 @@ function displayTopSellers() {
     topSellers.forEach((book, index) => {
         const bookHTML = `
             <div class="podium-book">
-                <p class="hashtag">#${index + 1}</p> <!-- Ajoutez le numéro du podium -->
+                <p class="hashtag">#${index + 1}</p>
                 <div class="podium-text">
                   <a class="podium-book" href="productdetail.html?bookId=${book.id}">
                     <img src="${book.imageSrc}" alt="${book.title}">
                   </a>
-                <p class="txtLorem">${book.remarque}<br><br><br>Sells: ${book.sales}</p>
+                  <div>
+                  <h1>${book.title}</h1>
+                  <p class="txtLorem">${book.remarque}<br><br>Sells: ${book.sales}</p>
+                  </div>
                 </div>
-                <h2 class="titleImg">${book.title}</h2>
             </div>
         `;
         podiumBooksContainer.insertAdjacentHTML('beforeend', bookHTML);
