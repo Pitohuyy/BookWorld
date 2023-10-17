@@ -1,0 +1,72 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    position: relative; /* Nécessaire pour positionner le serpent */
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles pour les sections */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative; /* Nécessaire pour positionner le serpent */
+}
+
+section h2 {
+    font-size: 18px;
+    color: #ff0000; /* Couleur rouge pour les titres importants */
+}
+
+section p {
+    font-size: 16px;
+}
+
+/* Animation du serpent */
+#snake {
+    width: 20px;
+    height: 20px;
+    background-color: #00ff00; /* Couleur verte pour le serpent */
+    border-radius: 50%; /* Pour créer un cercle */
+    position: absolute;
+    animation: snakeAnimation 10s linear infinite; /* Réglez la durée et le style de l'animation */
+}
+
+@keyframes snakeAnimation {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 100%;
+        top: 0;
+    }
+    50% {
+        left: 100%;
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+/* Style pour le pied de page */
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
