@@ -26,18 +26,15 @@ app.get('/api/users', (req, res) => {
 
 app.post('/create-checkout-session', async (req, res) => {
     const { items } = req.body;
-
-    // Convertir vos items au format approprié pour price_data
     const formattedItems = items.map(item => ({
         price_data: {
             currency: item.currency,
             product_data: {
                 name: item.name,
-                // Vous pouvez également ajouter d'autres propriétés comme description, images, etc.
             },
-            unit_amount: parseInt(item.amount), // Assurez-vous que le montant est un entier
+            unit_amount: parseInt(item.amount),
         },
-        quantity: parseInt(item.quantity), // Assurez-vous que la quantité est un entier
+        quantity: parseInt(item.quantity),
     }));
 
     try {
