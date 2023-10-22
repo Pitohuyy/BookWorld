@@ -1,11 +1,17 @@
-/* menu.css */
+ul{
+	justify-content: space-between;
+	text-align: center;
+}
 
-/* Stylisation des bulles */
+/* menu.css */  
+
 .menu-body {
     display: flex;
     justify-content: center;
-    background: linear-gradient(to bottom, #2375D8, #2096E0);
-    padding: 10px 0;
+    padding: 20px 0;
+    list-style-type: none;
+    background-color: #27262c;
+    margin: 0; /* Ajoutez cette ligne pour supprimer la marge */
 }
 
 .menu-body ul {
@@ -13,6 +19,7 @@
     display: flex;
     align-items: center;
     padding: 0;
+    margin: 0; /* Ajoutez cette ligne pour supprimer la marge */
 }
 
 .menu-body li {
@@ -33,35 +40,24 @@
     color: #FFA91B;
 }
 
-/* Animation des bulles */
-.menu-body li:before {
-    content: '';
-    position: absolute;
-    border: 2px solid #F9F8FD;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    background: #2375D8;
-    animation: bubble 2s infinite;
-    top: -5px;
-    left: 50%;
-    transform: translateX(-50%);
+li {
+    padding: 1rem 2rem 1.15rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ebebeb;
+	min-width: 80px;
+	margin: auto;
 }
 
-@keyframes bubble {
-    0% {
-        transform: translateX(-50%) translateY(0);
-        opacity: 1;
-    }
-    50% {
-        transform: translateX(-50%) translateY(-20px);
-        opacity: 0.5;
-    }
-    100% {
-        transform: translateX(-50%) translateY(0);
-        opacity: 1;
-    }
+li:hover {
+  background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
+  background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #ef816c;
+  font-weight: bold;
 }
+<<<<<<< HEAD
 
 /* Media Query pour les téléphones */
 @media screen and (max-width: 768px) {
@@ -80,3 +76,27 @@
         display: none;
     }
 }
+=======
+li:active {
+  transform: translateY(4px);
+}
+
+@keyframes spring {
+  15% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.2, 1.1);
+  }
+  40% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(0.95, 0.95);
+  }
+  75% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.05, 1);
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1, 1);
+  }
+}
+>>>>>>> 7f6f4de12c832cf3e373669a474120ab711d8abb

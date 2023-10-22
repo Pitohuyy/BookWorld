@@ -1,3 +1,5 @@
+const stripe = Stripe('pk_test_51O1zzrHS1eWSG2Pl82hTx1pID3uC6vJNgSUYoiCGuEJ7IJ4FouffWl1NdmyhyqjLibgmk6fNi7lSIpTJnxyZ7W7600DjLYXCoI'); 
+
 document.addEventListener("DOMContentLoaded", function() {
     loadCartDetails();
 });
@@ -56,6 +58,45 @@ function deleteProduct(productTitle) {
     loadCartDetails();
 }
 
-document.getElementById("checkoutButton").addEventListener("click", function() {
-    // Ajoutez ici le code pour le passage de commande
+document.getElementById("checkoutButton").addEventListener("click", async function() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || {};
+
+    const items = Object.keys(cart).map(productTitle => {
+        return {
+            name: productTitle,
+            amount: cart[productTitle].price * 100,
+            currency: 'eur',
+            quantity: cart[productTitle].quantity
+        };
+    });
+
+    if (items.length === 0) {
+        alert("Votre panier est vide!");
+        return;
+    }
+
+    try {
+        const response = await fetch('/create-checkout-session', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ items })
+        });
+
+        if (response.ok) {
+            const { sessionId } = await response.json();
+            const result = await stripe.redirectToCheckout({ sessionId });
+            if (result.error) {
+                alert(result.error.message);
+            }
+        } else {
+            const { error } = await response.json();
+            alert(`Erreur: ${error}`);
+        }
+    } catch (err) {
+        alert("Une erreur s'est produite lors de la création de la session de paiement.");
+    }
 });
+
+
