@@ -55,7 +55,7 @@ li:hover {
   color: #27262c;
   animation: spring 300ms ease-out;
   text-shadow: 0 -1px 0 #ef816c;
-	font-weight: bold;
+  font-weight: bold;
 }
 li:active {
   transform: translateY(4px);
