@@ -33,10 +33,10 @@ function displayBookDetails(book) {
   const productDetails = document.getElementById("product-details");
   productDetails.innerHTML = `<h2>Product Details</h2>
   <ul>
-      <li><strong>Reading Age:</strong> ${book.productDetails.age}</li>
-      <li><strong>Binding:</strong> ${book.productDetails.binding}</li>
-      <li><strong>Language:</strong> ${book.productDetails.language}</li>
-      <li><strong>Publisher:</strong> ${book.productDetails.publisher}</li>
+      <li class="listee"><strong>Reading Age:</strong> ${book.productDetails.age}</li>
+      <li class="listee"><strong>Binding:</strong> ${book.productDetails.binding}</li>
+      <li class="listee"><strong>Language:</strong> ${book.productDetails.language}</li>
+      <li class="listee"><strong>Publisher:</strong> ${book.productDetails.publisher}</li>
   </ul>`;
 }
 
