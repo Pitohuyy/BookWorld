@@ -49,15 +49,6 @@ li {
 	margin: auto;
 }
 
-li:hover {
-  background-image: url('https://scottyzen.sirv.com/Images/v/button.png');
-  background-size: 100% 100%;
-  color: #27262c;
-  animation: spring 300ms ease-out;
-  text-shadow: 0 -1px 0 #ef816c;
-  font-weight: bold;
-}
-<<<<<<< HEAD
 
 /* Media Query pour les téléphones */
 @media screen and (max-width: 768px) {
@@ -76,27 +67,8 @@ li:hover {
         display: none;
     }
 }
-=======
 li:active {
   transform: translateY(4px);
 }
 
-@keyframes spring {
-  15% {
-    -webkit-transform-origin: center center;
-    -webkit-transform: scale(1.2, 1.1);
-  }
-  40% {
-    -webkit-transform-origin: center center;
-    -webkit-transform: scale(0.95, 0.95);
-  }
-  75% {
-    -webkit-transform-origin: center center;
-    -webkit-transform: scale(1.05, 1);
-  }
-  100% {
-    -webkit-transform-origin: center center;
-    -webkit-transform: scale(1, 1);
-  }
-}
->>>>>>> 7f6f4de12c832cf3e373669a474120ab711d8abb
+

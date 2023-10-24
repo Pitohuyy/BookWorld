@@ -4,9 +4,9 @@
     "title": "The Odyssey",
     "imageSrc": "Assets/img/book1.png",
     "description": "Description:Robert Fagles...",
-    "remarque":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Commodo elit at imperdiet dui accumsan sit amet. Dictumst quisque sagittis purus sit amet volutpat. Consectetur purus ut faucibus pulvinar elementum. Netus et malesuada fames ac turpis egestas. Feugiat vivamus at augue eget arcu dictum varius. Sed adipiscing diam donec adipiscing tristique risus. Tellus in hac habitasse platea. Adipiscing vitae proin sagittis nisl rhoncus.",
+    "remarque":"'The Odyssey' by Homer, one of the most celebrated literary works in history, has maintained its status as a top bestseller for centuries. This epic poem, written in ancient Greece, narrates the incredible adventures of Odysseus as he embarks on a perilous journey back home following the Trojan War. Filled with mythical creatures, divine interventions, and timeless moral lessons, 'The Odyssey' captivates readers with its rich storytelling and exploration of the human condition. Its enduring popularity is a testament to the enduring power of storytelling, making it a must-read classic that continues to enchant and inspire readers of all ages.",
     "price": 9,
-    "sales":1000,
+    "sales":2000000,
     "stars": "★★★★☆",
     "stripePriceId": "price_1O201dHS1eWSG2PlCzoaf8kk",
     "productDetails": {
@@ -25,9 +25,9 @@
     "title": "Harry Potter ",
     "imageSrc": "Assets/img/book2.png",
     "description": "Description:The third book in the Harry Potter series...",
-    "remarque":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Commodo elit at imperdiet dui accumsan sit amet. Dictumst quisque sagittis purus sit amet volutpat. Consectetur purus ut faucibus pulvinar elementum. Netus et malesuada fames ac turpis egestas. Feugiat vivamus at augue eget arcu dictum varius. Sed adipiscing diam donec adipiscing tristique risus. Tellus in hac habitasse platea. Adipiscing vitae proin sagittis nisl rhoncus.",
+    "remarque":"Harry Potter and the Prisoner of Azkaban' is the third book in the immensely popular Harry Potter series by J.K. Rowling. Since its release, it has consistently been a bestseller and remains a beloved classic in the world of fantasy literature. The novel follows the young wizard Harry Potter during his third year at Hogwarts School of Witchcraft and Wizardry. This year, he encounters new challenges and mysteries, including the escape of the dangerous prisoner, Sirius Black, and the presence of the Dementors, dark and soul-sucking creatures.",
     "price": 28,
-    "sales":10,
+    "sales":65000000,
     "stars": "★★★★★",
     "stripePriceId": "price_1O41SiHS1eWSG2PlvbTasxMw",
     "productDetails": {
@@ -43,25 +43,26 @@
   },
   {
     "id": 3,
-    "title": "The Exchange",
-    "imageSrc": "Assets/img/book3.png",
-    "description": "Description:What became of Mitch and Abby McDeere...",
-    "remarque":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Commodo elit at imperdiet dui accumsan sit amet. Dictumst quisque sagittis purus sit amet volutpat. Consectetur purus ut faucibus pulvinar elementum. Netus et malesuada fames ac turpis egestas. Feugiat vivamus at augue eget arcu dictum varius. Sed adipiscing diam donec adipiscing tristique risus. Tellus in hac habitasse platea. Adipiscing vitae proin sagittis nisl rhoncus.",
-    "price": 18,
-    "sales":100,
-    "stars": "★★★☆☆",
-    "stripePriceId": "price_1O41mAHS1eWSG2PlBPu34h7w",
-    "productDetails": {
-      "age": "13+ years+",
-      "binding": "352 pages",
-      "language": "English",
-      "publisher": "Doubleday (October 17, 2023)"
-    },
-    "comments": [
-      {"user": "NovelNerd", "rating": "★★★★☆", "text": "This book is an incredible source of inspiration for me..."},
-      {"user": "BibliophileKate", "rating": "★★☆☆☆", "text": "I expected better..."}
-    ]
+      "title": "Dracula: The Original",
+      "imageSrc": "Assets/img/book7.png",
+      "description": "Description:Dracula is an 1897 Gothic horror novel by Irish author Bram Stoker.Famous for introducing the character of the vampire Count Dracula, the novel tells the story of Dracula's attempt to move from Transylvania to England so he may find new blood and spread undead curse, and the battle between Dracula and a small group of men and women led by Professor Abraham Van Helsing.Dracula has been assigned to many literary genres including vampire literature, horror fiction, the gothic novel and invasion literature. The novel touches on themes such as the role of women in Victorian culture, sexual conventions, immigration, colonialism, and post-colonialism.Although Stoker did not invent the vampire, he defined its modern form, and the novel has spawned numerous theatrical, film and television interpretations.",
+      "price": 23.50,
+      "sales":1000000,
+      "remarque":"'Dracula,' the original classic novel written by Bram Stoker, is a timeless masterpiece of gothic horror and vampire fiction. First published in 1897, it has consistently been a bestseller and a staple of the horror genre. The novel tells the story of Count Dracula, a centuries-old vampire who seeks to spread his curse to England. Through a series of diaries, letters, and journal entries, the novel immerses readers in a chilling tale of fear, suspense, and the battle between good and evil.",
+      "stars": "★★★★☆",
+      "stripePriceId": "price_1O41pcHS1eWSG2PlvcuJomQv",
+      "productDetails": {
+          "age": "17+ years+",
+          "binding": "260 pages",
+          "language": "English",
+          "publisher": "Independently published (February 1, 2023)"
+      },
+      "comments": [
+          { "user": "WordWizard17", "rating": "★★★★★", "text": "This novel made me believe in true love. The characters were so endearing, and their love story touched me deeply." },
+          { "user": "ReadMoreSam", "rating": "★★★☆☆", "text": " The story was predictable, and the characters lacked development. " }
+      ]
   },
+  
   {
     "id": 4,
     "title": "Time of Justice",
@@ -107,6 +108,7 @@
     "imageSrc": "Assets/img/book6.png",
     "description" : "Description:Nice place, nice try.But it’s a case of mistaken identity, and they picked the wrong guy.The French police can’t be trusted, except for the beautiful Cecile Nazari.She finds out fast, that keeping up with Keeler is a dangerous occupation.Because someone’s preying on the weak and unprotected.Someone murderous.But they never counted on coming up against a guy like Keeler.",
     "price": 14.00,
+    "sales":100000,
     "stars": "★★★★☆",
     "stripePriceId": "price_1O41n9HS1eWSG2PlgDigpvuW",
     "productDetails": {
@@ -121,24 +123,26 @@
     ]
 },
 {
-  "id": 7,
-    "title": "Dracula: The Original",
-    "imageSrc": "Assets/img/book7.png",
-    "description": "Description:Dracula is an 1897 Gothic horror novel by Irish author Bram Stoker.Famous for introducing the character of the vampire Count Dracula, the novel tells the story of Dracula's attempt to move from Transylvania to England so he may find new blood and spread undead curse, and the battle between Dracula and a small group of men and women led by Professor Abraham Van Helsing.Dracula has been assigned to many literary genres including vampire literature, horror fiction, the gothic novel and invasion literature. The novel touches on themes such as the role of women in Victorian culture, sexual conventions, immigration, colonialism, and post-colonialism.Although Stoker did not invent the vampire, he defined its modern form, and the novel has spawned numerous theatrical, film and television interpretations.",
-    "price": 23.50,
-    "stars": "★★★★☆",
-    "stripePriceId": "price_1O41pcHS1eWSG2PlvcuJomQv",
+    "id": 7,
+    "title": "The Exchange",
+    "imageSrc": "Assets/img/book3.png",
+    "description": "Description:What became of Mitch and Abby McDeere...",
+    "remarque":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Commodo elit at imperdiet dui accumsan sit amet. Dictumst quisque sagittis purus sit amet volutpat. Consectetur purus ut faucibus pulvinar elementum. Netus et malesuada fames ac turpis egestas. Feugiat vivamus at augue eget arcu dictum varius. Sed adipiscing diam donec adipiscing tristique risus. Tellus in hac habitasse platea. Adipiscing vitae proin sagittis nisl rhoncus.",
+    "price": 18,
+    "sales":10000,
+    "stars": "★★★☆☆",
+    "stripePriceId": "price_1O41mAHS1eWSG2PlBPu34h7w",
     "productDetails": {
-        "age": "17+ years+",
-        "binding": "260 pages",
-        "language": "English",
-        "publisher": "Independently published (February 1, 2023)"
+      "age": "13+ years+",
+      "binding": "352 pages",
+      "language": "English",
+      "publisher": "Doubleday (October 17, 2023)"
     },
     "comments": [
-        { "user": "WordWizard17", "rating": "★★★★★", "text": "This novel made me believe in true love. The characters were so endearing, and their love story touched me deeply." },
-        { "user": "ReadMoreSam", "rating": "★★★☆☆", "text": " The story was predictable, and the characters lacked development. " }
+      {"user": "NovelNerd", "rating": "★★★★☆", "text": "This book is an incredible source of inspiration for me..."},
+      {"user": "BibliophileKate", "rating": "★★☆☆☆", "text": "I expected better..."}
     ]
-},
+  },
 {
     "id": 8,
     "title": "Frankenstein",
