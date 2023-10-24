@@ -87,6 +87,7 @@
     cursor:pointer;
     padding: 10px;
     border-color: black;
+    border-radius:5px;
     background-color: rgba(0, 0, 0, 0);
     transition: background-color 0.3s ease; /* Ajouter une transition pour une animation en douceur */    
   }
