@@ -30,7 +30,7 @@ body {
     margin-bottom: 10px;
 }
 #add-to-cart,
-#buy-now {
+#buy-now,#visu {
     background-color: #3498db;
     color: white;
     padding: 10px 20px;
