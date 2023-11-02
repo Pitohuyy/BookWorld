@@ -4,15 +4,9 @@
     "title": "The Odyssey",
     "imageSrc": "Assets/img/book1.png",
     "description": "Description:Robert Fagles...",
-<<<<<<< Updated upstream
     "remarque":"'The Odyssey' by Homer, one of the most celebrated literary works in history, has maintained its status as a top bestseller for centuries. This epic poem, written in ancient Greece, narrates the incredible adventures of Odysseus as he embarks on a perilous journey back home following the Trojan War. Filled with mythical creatures, divine interventions, and timeless moral lessons, 'The Odyssey' captivates readers with its rich storytelling and exploration of the human condition. Its enduring popularity is a testament to the enduring power of storytelling, making it a must-read classic that continues to enchant and inspire readers of all ages.",
     "price": 9,
     "sales":2000000,
-=======
-    "remarque":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Commodo elit at imperdiet dui accumsan sit amet. Dictumst quisque sagittis purus sit amet volutpat. Consectetur purus ut faucibus pulvinar elementum. Netus et malesuada fames ac turpis egestas. Feugiat vivamus at augue eget arcu dictum varius. Sed adipiscing diam donec adipiscing tristique risus. Tellus in hac habitasse platea. Adipiscing vitae proin sagittis nisl rhoncus.",
-    "price": 9,
-    "sales":1000,
->>>>>>> Stashed changes
     "stars": "★★★★☆",
     "stripePriceId": "price_1O201dHS1eWSG2PlCzoaf8kk",
     "productDetails": {
@@ -31,15 +25,9 @@
     "title": "Harry Potter ",
     "imageSrc": "Assets/img/book2.png",
     "description": "Description:The third book in the Harry Potter series...",
-<<<<<<< Updated upstream
     "remarque":"Harry Potter and the Prisoner of Azkaban' is the third book in the immensely popular Harry Potter series by J.K. Rowling. Since its release, it has consistently been a bestseller and remains a beloved classic in the world of fantasy literature. The novel follows the young wizard Harry Potter during his third year at Hogwarts School of Witchcraft and Wizardry. This year, he encounters new challenges and mysteries, including the escape of the dangerous prisoner, Sirius Black, and the presence of the Dementors, dark and soul-sucking creatures.",
     "price": 28,
     "sales":65000000,
-=======
-    "remarque":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Commodo elit at imperdiet dui accumsan sit amet. Dictumst quisque sagittis purus sit amet volutpat. Consectetur purus ut faucibus pulvinar elementum. Netus et malesuada fames ac turpis egestas. Feugiat vivamus at augue eget arcu dictum varius. Sed adipiscing diam donec adipiscing tristique risus. Tellus in hac habitasse platea. Adipiscing vitae proin sagittis nisl rhoncus.",
-    "price": 28,
-    "sales":10,
->>>>>>> Stashed changes
     "stars": "★★★★★",
     "stripePriceId": "price_1O41SiHS1eWSG2PlvbTasxMw",
     "productDetails": {
@@ -55,7 +43,6 @@
   },
   {
     "id": 3,
-<<<<<<< Updated upstream
       "title": "Dracula: The Original",
       "imageSrc": "Assets/img/book7.png",
       "description": "Description:Dracula is an 1897 Gothic horror novel by Irish author Bram Stoker.Famous for introducing the character of the vampire Count Dracula, the novel tells the story of Dracula's attempt to move from Transylvania to England so he may find new blood and spread undead curse, and the battle between Dracula and a small group of men and women led by Professor Abraham Van Helsing.Dracula has been assigned to many literary genres including vampire literature, horror fiction, the gothic novel and invasion literature. The novel touches on themes such as the role of women in Victorian culture, sexual conventions, immigration, colonialism, and post-colonialism.Although Stoker did not invent the vampire, he defined its modern form, and the novel has spawned numerous theatrical, film and television interpretations.",
@@ -74,25 +61,6 @@
           { "user": "WordWizard17", "rating": "★★★★★", "text": "This novel made me believe in true love. The characters were so endearing, and their love story touched me deeply." },
           { "user": "ReadMoreSam", "rating": "★★★☆☆", "text": " The story was predictable, and the characters lacked development. " }
       ]
-=======
-    "title": "The Exchange",
-    "imageSrc": "Assets/img/book3.png",
-    "description": "Description:What became of Mitch and Abby McDeere...",
-    "remarque":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed sed risus. Commodo elit at imperdiet dui accumsan sit amet. Dictumst quisque sagittis purus sit amet volutpat. Consectetur purus ut faucibus pulvinar elementum. Netus et malesuada fames ac turpis egestas. Feugiat vivamus at augue eget arcu dictum varius. Sed adipiscing diam donec adipiscing tristique risus. Tellus in hac habitasse platea. Adipiscing vitae proin sagittis nisl rhoncus.",
-    "price": 18,
-    "sales":100,
-    "stars": "★★★☆☆",
-    "productDetails": {
-      "age": "13+ years+",
-      "binding": "352 pages",
-      "language": "English",
-      "publisher": "Doubleday (October 17, 2023)"
-    },
-    "comments": [
-      {"user": "NovelNerd", "rating": "★★★★☆", "text": "This book is an incredible source of inspiration for me..."},
-      {"user": "BibliophileKate", "rating": "★★☆☆☆", "text": "I expected better..."}
-    ]
->>>>>>> Stashed changes
   },
   
   {
@@ -155,7 +123,6 @@
     ]
 },
 {
-<<<<<<< Updated upstream
     "id": 7,
     "title": "The Exchange",
     "imageSrc": "Assets/img/book3.png",
@@ -165,14 +132,6 @@
     "sales":10000,
     "stars": "★★★☆☆",
     "stripePriceId": "price_1O41mAHS1eWSG2PlBPu34h7w",
-=======
-  "id": 7,
-    "title": "Dracula: The Original",
-    "imageSrc": "Assets/img/book7.png",
-    "description": "Description:Dracula is an 1897 Gothic horror novel by Irish author Bram Stoker.Famous for introducing the character of the vampire Count Dracula, the novel tells the story of Dracula's attempt to move from Transylvania to England so he may find new blood and spread undead curse, and the battle between Dracula and a small group of men and women led by Professor Abraham Van Helsing.Dracula has been assigned to many literary genres including vampire literature, horror fiction, the gothic novel and invasion literature. The novel touches on themes such as the role of women in Victorian culture, sexual conventions, immigration, colonialism, and post-colonialism.Although Stoker did not invent the vampire, he defined its modern form, and the novel has spawned numerous theatrical, film and television interpretations.",
-    "price": 23.50,
-    "stars": "★★★★☆",
->>>>>>> Stashed changes
     "productDetails": {
       "age": "13+ years+",
       "binding": "352 pages",
@@ -186,11 +145,7 @@
   },
 {
     "id": 8,
-<<<<<<< Updated upstream
     "title": "Frankenstein",
-=======
-    "title": "Frankenstein ",
->>>>>>> Stashed changes
     "imageSrc": "Assets/img/book8.png",
     "description": "Description : Frankenstein; or, The Modern Prometheus, is a novel written by English author Mary Shelley about the young student of science Victor Frankenstein, who creates a grotesque but sentient creature in an unorthodox scientific experiment. Shelley started writing the story when she was eighteen, and the novel was published when she was twenty. The first edition was published anonymously in London in 1818. Shelley's name appears on the second edition, published in France in 1823.Shelley had travelled through Europe in 1814, journeying along the river Rhine in Germany with a stop in Gernsheim which is just 17 km (10 mi) away from Frankenstein Castle, where two centuries before an alchemist was engaged in experiments. Later, she travelled in the region of Geneva (Switzerland)—where much of the story takes place—and the topics of galvanism and other similar occult ideas were themes of conversation among her companions, particularly her lover and future husband, Percy Shelley. Mary, Percy, Lord Byron, and John Polidori decided to have a competition to see who could write the best horror story. After thinking for days, Shelley dreamt about a scientist who created life and was horrified by what he had made; her dream later evolved into the story within the novel.",
     "price": 26.50,
@@ -228,11 +183,7 @@
 },
 {
     "id": 10,
-<<<<<<< Updated upstream
     "title": "Warriors: A Starless",
-=======
-    "title": "Warriors: A Starless ",
->>>>>>> Stashed changes
     "imageSrc": "Assets/img/book10.png",
     "description": "Description:The warrior code now allows a cat to formally change Clans, but ShadowClan’s newest arrival feels increasingly unwelcome—and though ShadowClan warrior Sunbeam thinks every cat deserves a chance, one of the loudest voices of opposition is her own mother. Meanwhile medicine cat apprentice Frostpaw scrambles to help RiverClan stay afloat under the watchful eye of a second Tigerstar, and the shadow of growing conflict looms over them all…",
     "price": 12.31,
@@ -308,11 +259,7 @@
 },
 {
     "id": 14,
-<<<<<<< Updated upstream
     "title": "The Boy From Block",
-=======
-    "title": "The Boy From Block ",
->>>>>>> Stashed changes
     "imageSrc": "Assets/img/book14.png",
     "description": "Description:January, 1945. 14-year-old Moshe Kessler steps off the train at Buchenwald concentration camp. Having endured the horrors of Auschwitz-Birkenau, lost touch with his entire family, and survived the death march in the freezing European winter, he has seen more than his share of tragedy.Moshe knows only one thing about Buchenwald. Everyone knows it.If you want to survive, you have to get to Block 66.The Germans are cruel and determined – but they are not prepared for Buchenwald’s secret resistance, which rises up with one mission only: to protect the camp’s children from harm.This is the incredible true story of Moshe Kessler and Block 66 – the children’s block that was at the forefront of one of the most shocking and inspiring stories of Holocaust survival.",
     "price": 16.99,
@@ -331,11 +278,7 @@
 },
 {
     "id": 15, 
-<<<<<<< Updated upstream
     "title": "All the Broken",
-=======
-    "title": "All the Broken ",
->>>>>>> Stashed changes
     "imageSrc": "Assets/img/book15.png",
     "description": "Description:Ninety-one-year-old Gretel Fernsby has lived in the same well-to-do mansion block in London for decades. She lives a quiet, comfortable life, despite her deeply disturbing, dark past. She doesn’t talk about her escape from Nazi Germany at age 12. She doesn’t talk about the grim post-war years in France with her mother. Most of all, she doesn’t talk about her father, who was the commandant of one of the Reich’s most notorious extermination camps.Then, a new family moves into the apartment below her. In spite of herself, Gretel can’t help but begin a friendship with the little boy, Henry, though his presence brings back memories she would rather forget. One night, she witnesses a disturbing, violent argument between Henry’s beautiful mother and his arrogant father, one that threatens Gretel’s hard-won, self-contained existence.All The Broken Places moves back and forth in time between Gretel’s girlhood in Germany to present-day London as a woman whose life has been haunted by the past. Now, Gretel faces a similar crossroads to one she encountered long ago. Back then, she denied her own complicity, but now, faced with a chance to interrogate her guilt, grief and remorse, she can choose to save a young boy. If she does, she will be forced to reveal the secrets she has spent a lifetime protecting. This time, she can make a different choice than before—whatever the cost to herself….",
     "price": 19.00,
