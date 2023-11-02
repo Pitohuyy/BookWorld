@@ -58,6 +58,7 @@ function deleteProduct(productTitle) {
     loadCartDetails();
 }
 
+<<<<<<< Updated upstream
 document.getElementById("checkoutButton").addEventListener("click", async function() {
     const cart = JSON.parse(localStorage.getItem('cart')) || {};
 
@@ -100,3 +101,8 @@ document.getElementById("checkoutButton").addEventListener("click", async functi
 });
 
 
+=======
+document.getElementById("checkoutButton").addEventListener("click", function() {
+    // Ajoutez ici le code pour le passage de commande
+});
+>>>>>>> Stashed changes

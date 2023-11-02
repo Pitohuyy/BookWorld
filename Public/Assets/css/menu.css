@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ul{
 	justify-content: space-between;
 	text-align: center;
@@ -28,6 +29,31 @@ ul{
     position: relative;
 }
 
+=======
+/* menu.css */
+
+/* Stylisation des bulles */
+.menu-body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #2375D8, #2096E0);
+    padding: 10px 0;
+}
+
+.menu-body ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.menu-body li {
+    margin: 0 10px;
+    padding: 5px;
+    position: relative;
+}
+
+>>>>>>> Stashed changes
 .menu-body a {
     text-decoration: none;
     color: #F9F8FD;
@@ -38,6 +64,7 @@ ul{
 
 .menu-body a:hover {
     color: #FFA91B;
+<<<<<<< Updated upstream
 }
 
 li {
@@ -72,3 +99,36 @@ li:active {
 }
 
 
+=======
+}
+
+/* Animation des bulles */
+.menu-body li:before {
+    content: '';
+    position: absolute;
+    border: 2px solid #F9F8FD;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #2375D8;
+    animation: bubble 2s infinite;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes bubble {
+    0% {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(-50%) translateY(-20px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+    }
+}
+>>>>>>> Stashed changes

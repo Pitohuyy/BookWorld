@@ -93,8 +93,12 @@ a {
 /* Styles pour chaque élément podium */
 .podium-book {
     flex: 1; /* Chaque élément occupe une part égale de l'espace disponible */
+<<<<<<< Updated upstream
     background-color: #b4b4b4;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Valeurs pour l'ombre */
+=======
+   
+>>>>>>> Stashed changes
 }
 
 .podium-text{
@@ -137,7 +141,10 @@ a {
 .hashtag{
     padding-left:30px ;
     font-size: 40px;
+<<<<<<< Updated upstream
     padding-top: 30px;
+=======
+>>>>>>> Stashed changes
 }
 
 .gold{
